@@ -1,7 +1,10 @@
 import { Request, Response } from "express";
 import EmailService from "../services/EmailService";
 
-const users = [{ name: "danilo", email: "danilo@danilocaetano.com.br" }];
+const users = [{
+	name: "danilo",
+	email: "danilo@danilocaetano.com.br"
+}];
 
 export default {
 	// Type TS
